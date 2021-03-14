@@ -105,7 +105,6 @@
 		}
 
 	body {
-		background: #D4D9DD url('images/bg03.jpg');
 		color: #474f51;
 		font-size: 13.5pt;
 		font-family: 'Yanone Kaffeesatz';
@@ -313,10 +312,6 @@
 
 	#header {
 		position: relative;
-		background: #3B4346 url('images/bg01.jpg');
-		border-bottom: solid 1px #272d30;
-		box-shadow: inset 0px -1px 0px 0px #51575a;
-		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 
 		> .container {
 			position: relative;
@@ -326,11 +321,11 @@
 		h1 {
 			position: absolute;
 			left: 0;
-			bottom: 35px;
-			font-size: 2.75em;
+			bottom: 35%;
+			font-size: 1.5em;
 
 			a {
-				color: #fff;
+				color: #000;
 				text-decoration: none;
 			}
 		}
@@ -338,13 +333,13 @@
 		nav {
 			position: absolute;
 			right: 0;
-			bottom: 35px;
+			bottom: 35%;
 			font-weight: 200;
 
 			a {
-				color: #c6c8c8;
+				color: #000;
 				text-decoration: none;
-				font-size: 1.4em;
+				font-size: 1em;
 				margin-left: 60px;
 				outline: 0;
 
@@ -364,20 +359,23 @@
 /* Banner */
 
 	#banner {
-		border-top: solid 1px #222628;
-		box-shadow: inset 0px 1px 0px 0px #3e484a;
-		padding: 35px 0 35px 0;
-		color: #fff;
+		background-color:#000;
 
-		.bordered-feature-image {
-			margin-bottom: 0;
+		.container{
+			height: 50rem;
 		}
-
+		.row{
+			position: relative;
+			height: 100%;
+			top:50%;
+			text-align: center;
+		}
 		p {
-			font-size: 2em;
-			font-weight: 200;
+			
+			color:#fff;
+			font-size: 1.5em;
+			font-weight: 500;
 			line-height: 1.25em;
-			padding-right: 1em;
 			margin: 0 0 1em 0;
 		}
 	}
@@ -385,25 +383,23 @@
 /* Features */
 
 	#features {
-		background: #353D40 url('images/bg02.jpg');
-		border-bottom: solid 1px #272e31;
+		
 		padding: 45px 0 45px 0;
-		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
-		color: #a0a8ab;
-
+		color: #000;
+		section{
+			text-align: center;
+		}
 		h2 {
 			font-size: 1.25em;
-			color: #fff;
+			color: #000;
 			margin: 0 0 0.25em 0;
+			font-weight: bold;
 		}
 
 		a {
 			color: #e0e8eb;
 		}
 
-		strong {
-			color: #fff;
-		}
 	}
 
 /* Content */
