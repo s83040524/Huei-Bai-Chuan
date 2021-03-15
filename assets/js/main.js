@@ -47,5 +47,10 @@
 					target: $body,
 					visibleClass: 'navPanel-visible'
 				});
+				$('.case .row').slick({
+					infinite: true,
+					slidesToShow: 3,
+					slidesToScroll: 3
+				  });	
 
 })(jQuery);
