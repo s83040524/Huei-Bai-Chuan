@@ -88,6 +88,7 @@
 }
 
 
+
 /* Dots */
 .slick-dotted.slick-slider
 {
@@ -114,6 +115,7 @@
     position: relative;
 
     display: inline-block;
+
 
     width: 20px;
     height: 20px;
